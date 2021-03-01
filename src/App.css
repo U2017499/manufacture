@@ -1,0 +1,118 @@
+svg {
+  display: block;
+  width: 100%;
+  height: 300px;
+  background: #f7f7f7;
+  overflow: visible;
+}
+.landing-wrapper {
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+svg rect.selection {
+  stroke: none;
+}
+
+#root {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 50px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100px;
+  border: 1px solid black;
+  margin: 0 auto 5px;
+}
+
+video {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: auto;
+  width: 100%;
+}
+
+.fields {
+  margin-bottom: 1rem;
+}
+
+.field {
+  display: inline-block;
+  margin: 0 0.5em;
+}
+
+.field input {
+  margin-right: 0.5em;
+}
+.App {
+  /* text-align: center; */
+  justify-content: center;
+  display: flex;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.charts {
+  width: 720px;
+  margin-left: -20%;
+ 
+}
+.charts2 {
+  width: 720px;
+  margin-top: 120%;
+  margin-left: -20%;
+}
+.bar{
+  background-color: #ffffff;
+  margin-top: 20%;
+  width: 100%;
+  
+}
+.table {
+  margin-top: 180%;
+  margin-left: -10%;
+  background-color: white;
+  text-align: center;
+  width: 600px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
